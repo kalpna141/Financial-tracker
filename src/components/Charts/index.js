@@ -70,12 +70,15 @@ else{
                 <h2>Your Analytics</h2>
                 <Line 
                 
-                {...config} onReady={(chartInstance) => (chart = chartInstance)} />
+                {...config} onReady={(chartInstance) =>
+                 (chart = chartInstance)} />
 
-            </div>
-            <div >
+            </div> 
+             <div >
                 <h2>Your Spendings</h2>
-                <Pie {...spendingConfig} onReady={(chartInstance)=> (pieChart= chartInstance)} />                
+                <Pie 
+                 {...spendingConfig}
+                 onReady={(chartInstance)=> (pieChart= chartInstance)} />                
 
             </div>
 

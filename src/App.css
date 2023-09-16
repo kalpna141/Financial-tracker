@@ -1,5 +1,7 @@
-.wrapper,
-.charts-wrapper{
+.wrapper
+
+/* .charts-wrapper */
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,11 +9,16 @@
     height: 90vh;
 }
 .charts-wrapper{
-    height:auto ;
     
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+
+height:auto ;
     width: 93%;
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: var(--shadow);
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }

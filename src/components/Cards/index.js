@@ -1,16 +1,20 @@
 import { Row, Card } from "antd";
 import Button from "../Button";
 import './styles.css'
+
 function Cards({
     income, expense, totalBalance,
     showExpenseModal, showIncomeModal}) {
+        
     return (
         <div>
             <Row className="my-row">
                 <Card bordered={true} className="my-card">
                     <h2>Current Balance</h2>
                     <p>₹{totalBalance}</p>
-                    <Button text="Reset Balance"  blue={true}/>
+                    <Button text="Reset Balance"  blue={true}
+                    
+                    />
                 </Card>
 
 
